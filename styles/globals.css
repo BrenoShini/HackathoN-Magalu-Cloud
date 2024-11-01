@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#__next {
+  height: 100%;
+}
+
+.bg-gradient-container {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url('https://images.unsplash.com/photo-1557683316-973673baf926');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.glassmorphism {
+  background: rgba(17, 25, 40, 0.75);
+  backdrop-filter: blur(12px) saturate(180%);
+  -webkit-backdrop-filter: blur(12px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  width: 100%;
+  height: 85vh;
+}
